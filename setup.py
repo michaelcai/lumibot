@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="lumibot",
-    version="3.2.9",
+    version="3.3.0",
     author="Robert Grzesik",
     author_email="rob@lumiwealth.com",
     description="Backtesting and Trading Library, Made by Lumiwealth",
@@ -54,6 +54,7 @@ setuptools.setup(
         "uuid",
         "tabulate",
         "smart-trader-api @ git+https://gitlab.zkware.net/xquant/smart-trader-api-py.git",
+        "akshare",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
