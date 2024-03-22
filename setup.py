@@ -53,6 +53,7 @@ setuptools.setup(
         "duckdb",
         "uuid",
         "tabulate",
+        "smart-trader-api @ git+https://gitlab.zkware.net/xquant/smart-trader-api-py.git",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",

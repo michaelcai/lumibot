@@ -35,3 +35,6 @@ tabulate
 duckdb
 uuid
 numpy
+smart-trader-api @ git+https://gitlab.zkware.net/xquant/smart-trader-api-py.git ; python_full_version >= "3.10.1" and python_version < "3.11"
+akshare
+pandas_ta 

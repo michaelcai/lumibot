@@ -9,3 +9,4 @@ from .pandas_data import PandasData
 from .tradier_data import TradierData
 from .yahoo_data import YahooData
 from .ccxt_backtesting_data import CcxtBacktestingData
+from .vanilla_data import VanillaData
